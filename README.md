@@ -6,10 +6,19 @@ A android package project
 > 
 2014 1.15. project start
 > 
-2014 1.15.11:30 add folders
+2014 1.15.11:30 
 > 
-2014 1.15.12:23 change default wallpaper
+	add folders
 > 
-2014 1.15.12:38 make divider transparent
+	change default wallpaper
 > 
+	make divider transparent
+> 
+	change update-script
+> 
+	change mms bottom bar
+> 
+	add a compass
+> 
+
 
