@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/wifi_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:shadowColor="#000000" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="2" android:id="@id/name" style="@style/wifi_item_label" />
+    <TextView android:shadowColor="#000000" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="2" android:textStyle="bold" android:id="@id/value" style="@style/wifi_item_content" />
+</LinearLayout>
