@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/blacklist_title" android:key="button_blacklist"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:persistent="false" android:title="@string/enable_blacklist_title" android:key="button_enable_blacklist" />
+    <CheckBoxPreference android:title="@string/blacklist_notify" android:key="button_notify" android:dependency="button_enable_blacklist" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/blacklist_private_numbers_title" android:key="button_blacklist_private_numbers" android:summary="@string/blacklist_private_numbers_summary" android:dependency="button_enable_blacklist" />
+    <CheckBoxPreference android:title="@string/blacklist_unknown_numbers_title" android:key="button_blacklist_unknown_numbers" android:summary="@string/blacklist_unknown_numbers_summary" android:dependency="button_blacklist_private_numbers" />
+    <CheckBoxPreference android:title="@string/blacklist_regex_title" android:key="button_blacklist_regex" android:summary="@string/blacklist_regex_summary" android:dependency="button_enable_blacklist" />
+    <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/add_blacklist_number" android:key="button_add_blacklist_number" android:dependency="button_enable_blacklist" android:dialogTitle="@string/add_blacklist_number" phone:confirmMode="confirm" />
+    <PreferenceCategory android:title="@string/blacklist_title" android:key="cat_blacklist" android:dependency="button_enable_blacklist" />
+</PreferenceScreen>
