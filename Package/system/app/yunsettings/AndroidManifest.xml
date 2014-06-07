@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.roiding.timedwireless">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Holo">
+        <activity android:label="@string/app_name" android:name=".SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".TimedWirelessService"/>
+        <receiver android:name=".TimedWirelessReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".TurnOnReceiver"/>
+        <receiver android:name=".TurnOffReceiver"/>
+    </application>
+</manifest>

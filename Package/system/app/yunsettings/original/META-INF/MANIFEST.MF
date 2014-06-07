@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: d2j-apk-sign 0.0.0.4
+
+Name: res/xml/preferences.xml
+SHA1-Digest: 6kHLbrNftokqbZq/Wxo+66sDKEs=
+
+Name: AndroidManifest.xml
+SHA1-Digest: isApmaEAeNP/5JAynlr+mu/jE+Q=
+
+Name: res/drawable/icon.png
+SHA1-Digest: UvcAMq/oH+PFjbMTv9CCySZZCOM=
+
+Name: resources.arsc
+SHA1-Digest: V4xUEq/ntUfRfQqAHOW0kF9mr08=
+
+Name: classes.dex
+SHA1-Digest: xQtacTaBLZloYWcIuSoERV7o7JE=
+
+Name: res/drawable/about.png
+SHA1-Digest: UvcAMq/oH+PFjbMTv9CCySZZCOM=
+

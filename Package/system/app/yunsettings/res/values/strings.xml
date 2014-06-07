@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">功能增强</string>
+    <string name="about">关于</string>
+    <string name="alert_ok">确定</string>
+    <string name="general">自动飞行设置</string>
+    <string name="enable">开关</string>
+    <string name="enable_summary">是否开启自动飞行</string>
+    <string name="on_time">开启时间</string>
+    <string name="on_time_summary">开始时间在</string>
+    <string name="off_time">关闭时间</string>
+    <string name="off_time_summary">关闭时间</string>
+</resources>

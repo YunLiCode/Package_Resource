@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/view_prefs">
+        <ListPreference android:entries="@array/view_mode_titles" android:title="@string/view_mode" android:key="view_mode" android:summary="Select view mode" android:defaultValue="1" android:dialogTitle="@string/choose_view" android:entryValues="@array/view_mode_values" />
+        <ListPreference android:entries="@array/sort_order_titles" android:title="@string/sort_order" android:key="sort_order" android:summary="Select sort order" android:defaultValue="name_asc" android:dialogTitle="@string/choose_sort" android:entryValues="@array/sort_order_values" />
+        <CheckBoxPreference android:title="@string/folders_first_title" android:key="folders_first" android:summary="This is a check box" />
+        <CheckBoxPreference android:title="@string/show_hidden" android:key="show_hidden_files" android:summary="Hidden files will be displayed" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/show_thumbs" android:key="show_thumbnails" android:summary="Image thumbnails will be displayed" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/show_friendly" android:key="show_friendly_sizes" android:summary="Sizes will be displayed in K, MB or GB where appropriate." android:defaultValue="true" />
+        <ListPreference android:entries="@array/info_mode_titles" android:title="@string/info_mode" android:key="info_mode" android:summary="Select info bar mode" android:defaultValue="0" android:dialogTitle="@string/info_mode2" android:entryValues="@array/info_mode_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/archive_prefs">
+        <EditTextPreference android:title="@string/zip_folder" android:key="zip_destination_folder" android:summary="New zip/tar files will be created in this folder" />
+        <EditTextPreference android:title="@string/extract_folder" android:key="zip_extract_folder" android:summary="Zip/tar files will be extracted to this folder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_prefs">
+        <EditTextPreference android:title="@string/home_folder" android:key="home" android:summary="This folder will displayed when the app starts" android:defaultValue="/" />
+    </PreferenceCategory>
+</PreferenceScreen>

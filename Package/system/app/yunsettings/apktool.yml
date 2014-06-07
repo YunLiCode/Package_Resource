@@ -1,0 +1,12 @@
+version: 2.0.0-Beta9
+apkFileName: yunsettings.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '99'
+  versionName: 1.0.0
+compressionType: false

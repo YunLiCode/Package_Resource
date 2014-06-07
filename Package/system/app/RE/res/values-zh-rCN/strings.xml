@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RE管理器</string>
+    <string name="root_explorer_ad">"
+该文件夹受系统保护，无法在没有ROOT权限的手机上运行。
+
+但是,如果您的手机已有ROOT权限，可以使用特殊权限模式访问系统文件。
+
+P请点击如下按钮进入电子市场查看RE管理器详情。"</string>
+    <string name="data_folder_desc">该数据文件夹包括了系统存储的数据和第三方程序储存的数据。</string>
+    <string name="no_root_message_data">"您的手机未获得ROOT权限。该程序所访问的文件和文件夹是受保护的，需要有ROOT权限才可访问。
+
+最简单的获取您手机ROOT权限的方法就是 Google \"ROOT您手机的名称\" 并查看搜索结果获取进一步的教程。"</string>
+    <string name="no_root_message_system">"您的手机好像还未获取ROOT权限。在更改或删除受保护的文件时需要该权限。 
+
+最简单获取ROOT权限方法就是谷歌搜索找到获取\"root your_phone_name\" 并查看搜索结果获取进一步的教程。"</string>
+    <string name="sqlite_advert">"该文件属于SQLite数据库。您可以用自带的数据库浏览器查看该数据库
+
+但是, 如果您要编辑数据库内容，并完成更高级的功能（如：记录过滤），您则需要尝试使用我们的新SQLite编辑器（可以在市场中找到）。"</string>
+    <string name="dont_ask_again">不再显示</string>
+    <string name="beta_expired">测试版已过期</string>
+    <string name="beta_expires_1day">测试版将在 1 天后过期</string>
+    <string name="beta_expires_2days">测试版将在 2 天后过期</string>
+    <string name="open_with_help">"
+靠近帮助的三个选项卡标签包含了在此文件中可完成的操作。
+
+内置的选修课表情包含了一些 RE管理器内置的功能，如文本浏览， SQLite 数据浏览和 Zip 浏览。
+ 
+常规的标签选项卡可打开打开如，文本，音乐，音频，图像等常规类型的文件。
+
+程序选项卡标签允许您通过选择特定的程序打开文件。
+ 
+只需点击其中的一个选项卡标签并选择您想要执行的操作。
+ 
+在每个列表的底部有个选项框，如果您想将此操作作为默认的操作，请确保您标记选中了该选项框。"</string>
+    <string name="used">已用</string>
+    <string name="free">可用</string>
+    <string name="read_only_paste">由于文件系统为只读属性，您无法粘贴到此处。</string>
+    <string name="read_only_move_selected">由于文件系统为只读属性，您无法移动选择的项目。</string>
+    <string name="read_only_delete_selected">由于文件系统为只读属性，您无法删除选择的项目。</string>
+    <string name="restart_app_title">重启程序</string>
+    <string name="restart_app_message">"RE管理器还未成功获取ROOT权限。因为超级用户的问题，该问题在程序首次运行时总是会出现但以后会一切正常。
+
+点击“确定”按钮并重启程序再试。请确保在弹出超级用户提示时正确的操作。"</string>
+    <string name="ok">确定</string>
+    <string name="root_failed">"无法获取ROOT权限。
+
+请确保在弹出超级用户提示时正确的操作，如果已成功操作请重启您的设备。
+
+RE管理器将在无ROOT模式下继续。"</string>
+    <string name="root_failed_su_1">"由于以下显示信息的原因导致SU 失败从而无法获取ROOT权限:
+
+
+
+"</string>
+    <string name="root_failed_su_2">"
+
+
+
+请确保在弹出超级用户提示时有正确的操作。 如果您已操作完成，请尝试重启您的设备。 
+
+
+
+RE管理器将在无ROOT的模式下继续。"</string>
+    <string name="root_failed_title">获取ROOT权限失败</string>
+    <string name="search_cancelled">搜索已取消</string>
+    <string name="market_problem">显示 Android 电子市场有问题，请重试。</string>
+    <string name="zip_no_sd">SD 未挂载，创建 Zip 文件操作已终止</string>
+    <string name="zip_name">Zip 名称</string>
+    <string name="create_zip">创建 Zip 文件</string>
+    <string name="zip_no_name">未输入名称， Zip 文件创建失败</string>
+    <string name="cancel">取消</string>
+    <string name="tar_no_sd">SD 未挂载，创建 Tar 文件操作已终止</string>
+    <string name="tar_name_title">Tar 名称</string>
+    <string name="create_tar">创建 Tar 文件</string>
+    <string name="tar_compression">Tar 压缩</string>
+    <string name="tar_what_compression">选择您要执行的相应操作（作用于 Tar）</string>
+    <string name="no_compression">不压缩</string>
+    <string name="tar_no_name">未输入名称， Tar 文件创建失败</string>
+    <string name="paste">粘贴</string>
+    <string name="no_items_selected">未选择项目</string>
+    <string name="search_results_title">搜索结果</string>
+    <string name="no_sd_card">SD 卡当前未挂载</string>
+    <string name="warning_title">警告</string>
+    <string name="path_not_found">不存在，将显示第一次存在的父级文件夹</string>
+    <string name="paste_failure_title">粘贴失败</string>
+    <string name="paste_failure_msg1">无足够的磁盘空间完成粘贴操作。</string>
+    <string name="paste_failure_msg2">"无足够的磁盘空间完成粘贴操作。
+
+请注意：RE管理器显示的可用空间(依据于linux的报告反馈) 不总是100%准确。"</string>
+    <string name="link_failure_title">连接失败</string>
+    <string name="link_failure_msg1">"连接由于以下的原因导致操作失败: 
+
+\""</string>
+    <string name="link_failure_msg2">可能是因为目标文件系统不支持符号连接。 大部分的 SD 卡不支持连接</string>
+    <string name="app_cant_open_file">相关联的程序无法打开此文件</string>
+    <string name="no_associated_app">未找到可打开此类型文件的程序</string>
+    <string name="file_not_readable">无ROOT权限的程序无法读取此文件，如果要选择请先复制到 SD 卡中。</string>
+    <string name="package_installer_title">程序安装器</string>
+    <string name="package_installer_msg">这是一个程序安装器，请选择您要执行的操作</string>
+    <string name="install">安装</string>
+    <string name="view">查看</string>
+    <string name="script_file_title">脚本文件</string>
+    <string name="script_file_msg">这是一个可执行的脚本文件，请选择您要执行的操作。</string>
+    <string name="execute">执行</string>
+    <string name="zip_cancelled">创建 Zip 已取消</string>
+    <string name="tar_cancelled">创建 Tar 已取消</string>
+    <string name="chown_worked">用户/分组更改成功</string>
+    <string name="chown_failed">用户/分组更改失败。请注意：一些文件系统（如，SD 卡）不允许用户和分组的更改。</string>
+    <string name="chmod_worked">权限更改成功</string>
+    <string name="chmod_failed">权限更改失败。请注意一些文件系统(如，SD 卡)不允许权限的修改。</string>
+    <string name="extract">解压</string>
+    <string name="open_with">打开方式</string>
+    <string name="extract_all">全部解压</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="copy">复制</string>
+    <string name="copy_noun">复制</string>
+    <string name="move">移动</string>
+    <string name="permissions">权限</string>
+    <string name="properties">属性</string>
+    <string name="add_bookmark">添加书签</string>
+    <string name="send">发送</string>
+    <string name="view_as_text">文本方式查看</string>
+    <string name="open_in_text_editor">以文本编辑器方式打开</string>
+    <string name="zip_this_folder">压缩文件夹为 Zip</string>
+    <string name="set_as_home">设置为主页文件夹</string>
+    <string name="zip_this_file">压缩文件为 Zip</string>
+    <string name="change_owner">更改用户</string>
+    <string name="link_to_folder">连接到此文件夹</string>
+    <string name="link_to_file">连接到此文件</string>
+    <string name="read_only_edit">由于文件系统为只读属性，您无法编辑此文件。</string>
+    <string name="read_only_delete">不能被删除，因为文件系统为只读属性。</string>
+    <string name="read_only_rename">不能重命名，因为文件系统为只读属性。</string>
+    <string name="read_only_move">无法移动，因为文件系统为只读属性。</string>
+    <string name="create_link">创建连接</string>
+    <string name="read_only_permissions">权限无法更改，因为文件系统为只读属性。</string>
+    <string name="read_only_chown">用户无法更改，因为文件系统为只读属性。</string>
+    <string name="gzip">Gzip</string>
+    <string name="completed">已完成</string>
+    <string name="completed_msg1">已在文件夹中成功创建</string>
+    <string name="completed_msg2">点击 \"跳转至Zip\" 跳转到ZIP文件夹或点击\"停留\" 以停留到当前文件夹。</string>
+    <string name="completed_msg3">点击 \"跳转至tar\" 跳转到tar文件夹或点击\"停留\" 以停留到当前文件夹。</string>
+    <string name="stay">停留</string>
+    <string name="error">错误</string>
+    <string name="go_to_zip">跳转至 zip</string>
+    <string name="go_to_tar">跳转至 tar</string>
+    <string name="zip_failed">由于以下的错误导致Zip创建失败:</string>
+    <string name="tar_failed">由于以下的错误导致Tar创建失败:</string>
+    <string name="please_wait">请稍候...</string>
+    <string name="extracting_msg">正在解压文档至</string>
+    <string name="extracting_file_msg">正在解压文件至</string>
+    <string name="home_set_to">主页设置为</string>
+    <string name="bookmark_saved">书签已保存</string>
+    <string name="file">文件</string>
+    <string name="folder">文件夹</string>
+    <string name="delete_in_progress">正在删除...</string>
+    <string name="delete_file_prompt">确定要删除此文件吗？</string>
+    <string name="delete_folder_prompt">确定要删除此文件夹吗？</string>
+    <string name="yes">是</string>
+    <string name="deleted">删除成功</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="no">否</string>
+    <string name="multi_delete_title">多项删除</string>
+    <string name="multi_delete_prompt">确定要删除已选择的项目吗？</string>
+    <string name="already_exists_1">已存在，确定要继续并且合并文件夹内容吗？</string>
+    <string name="already_exists_2">已存在，确定要覆盖吗？</string>
+    <string name="mount">挂载</string>
+    <string name="link">连接</string>
+    <string name="paste_in_progress">正在粘贴...</string>
+    <string name="already_exists_3">已存在，请选择您要执行的操作</string>
+    <string name="merge">合并</string>
+    <string name="replace">替换</string>
+    <string name="existing_item">存在的项目</string>
+    <string name="skip">跳过</string>
+    <string name="cannot_rename">无法重命名为</string>
+    <string name="already_exists_4">原来已经存在了</string>
+    <string name="no_name_entered">未输入名称，项目未重命名</string>
+    <string name="new_folder_success">创建文件夹成功。</string>
+    <string name="new_folder_failed">创建文件夹失败。</string>
+    <string name="rename_success">重命名成功</string>
+    <string name="new_file_success">创建文件成功。</string>
+    <string name="new_file_failed">创建文件失败。</string>
+    <string name="unknown">未知</string>
+    <string name="calculating">正在计算...</string>
+    <string name="calc_failed">无法计算 (权限不够)</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="preferences">设置</string>
+    <string name="bookmarks">书签</string>
+    <string name="search">搜索</string>
+    <string name="multi_select">多选模式</string>
+    <string name="home">主页</string>
+    <string name="refresh">刷新</string>
+    <string name="new_file">新建文件</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="new_folder_ro">由于文件系统为只读属性，您无法在此处创建文件夹。</string>
+    <string name="new_file_ro">由于文件系统为只读属性，您无法在此处创建文件。</string>
+    <string name="folder_no_name">未输入名称，文件夹创建失败。</string>
+    <string name="file_no_name">未输入名称，文件创建失败。</string>
+    <string name="permissions_link">这是一个连接，在目标系统上权限将会被更改</string>
+    <string name="owner_link">这是一个连接，在目标系统上用户/分组将会被更改</string>
+    <string name="no_sd_return_root">当前 SD 卡未挂载，正在返回至根文件夹。</string>
+    <string name="search_in_progress">正在搜索</string>
+    <string name="searching_directory">正在搜索目录</string>
+    <string name="back_to_cancel">点击返回键取消</string>
+    <string name="extract_completed">解压已完成</string>
+    <string name="extracted_to">文件已解压至</string>
+    <string name="goto_extracted_msg">点击 \"跳转至已解压\" 跳转至已解压文件夹或点击\"停留\" 以停留到当前文件夹。</string>
+    <string name="goto_extracted_title">跳转至已解压</string>
+    <string name="extract_encrypted_msg">抱歉，无法解压加密文档。</string>
+    <string name="extract_encrypted_msg_2">抱歉，无法解压加密文件。</string>
+    <string name="root_explorer">RE管理器</string>
+    <string name="root_folder">根文件夹</string>
+    <string name="sd_card">SD 卡</string>
+    <string name="open_bookmark">打开书签</string>
+    <string name="delete_bookmark">删除书签</string>
+    <string name="go_to_parent">跳转至上一级文件夹</string>
+    <string name="delete_bookmark_prompt">确定要删除已选择的书签吗？</string>
+    <string name="bookmark_deleted">书签已删除</string>
+    <string name="preparing_archive">正在准备文档....点击返回键取消</string>
+    <string name="create_archive_folder_failed">无法创建目标文件夹文档</string>
+    <string name="creating">正在创建</string>
+    <string name="adding">正在添加</string>
+    <string name="cancelling_zip">正在取消创建 Zip 文件</string>
+    <string name="data">(数据)</string>
+    <string name="reading_record">正在读取录音</string>
+    <string name="loading_data">正在载入数据，请稍候...</string>
+    <string name="select_send_method">选择发送方式</string>
+    <string name="size">大小</string>
+    <string name="bytes">Bytes</string>
+    <string name="cant_calc">无法计算 (权限不够)</string>
+    <string name="truncated">已删减</string>
+    <string name="truncated_msg1">该文件太大以至于无法全部显示而只能显示一部分。所作的更改无法保持。</string>
+    <string name="truncated_msg2">该文件太大以至于无法全部显示而只能显示一部分。</string>
+    <string name="save_changes">保存更改</string>
+    <string name="save_and_exit">保存并退出</string>
+    <string name="discard_changes">放弃更改</string>
+    <string name="no_changes_made">未做出更改</string>
+    <string name="file_saved">文件已保存，原文件已备份为</string>
+    <string name="changes_discarded">所有未保存的更改将被取消</string>
+    <string name="save_changes_prompt">您已对此文件做出了更改，确定要在退出之前保存这些更改吗？</string>
+    <string name="total">总计</string>
+    <string name="available">可用</string>
+    <string name="internal">内置</string>
+    <string name="general">常规</string>
+    <string name="apps">程序</string>
+    <string name="text_viewer">文本查看器</string>
+    <string name="sqlite_viewer">SQLite 数据库查看器</string>
+    <string name="script_handler">Linux 脚本处理器</string>
+    <string name="apk_handler">APK 处理器</string>
+    <string name="text_editor">文本编辑器</string>
+    <string name="zip_viewer">Zip 查看器</string>
+    <string name="tar_viewer">Tar 查看器</string>
+    <string name="rar_viewer">Rar 查看器</string>
+    <string name="open_default">以系统操作方式打开</string>
+    <string name="open_image">以图片方式打开</string>
+    <string name="open_audio">以音频方式打开</string>
+    <string name="open_video">以视频方式打开</string>
+    <string name="open_text">以文本方式打开</string>
+    <string name="simple_list">在简易模式中显示列表</string>
+    <string name="detailed_list">在详情模式中显示列表</string>
+    <string name="icon_list">文件以图标显示</string>
+    <string name="name_asc">文件将按名称升序排列</string>
+    <string name="name_desc">文件将按名称降序排列</string>
+    <string name="date_asc">文件将按日期升序排列</string>
+    <string name="date_desc">文件将按日期降序排列</string>
+    <string name="size_asc">文件将按大小升序排列</string>
+    <string name="size_desc">文件将按大小降序排列</string>
+    <string name="type_asc">文件将按类型升序排列</string>
+    <string name="folders_first">文件夹总是先列出，然后才列出剩下的文件</string>
+    <string name="folders_not_first">文件夹和文件将以选择的排序方式进行混合排序</string>
+    <string name="hidden_files_yes">显示隐藏文件和文件夹</string>
+    <string name="hidden_files_no">不显示隐藏文件和文件夹</string>
+    <string name="thumbnails_yes">显示图像缩略图</string>
+    <string name="thumbnails_no">隐藏图像缩略图</string>
+    <string name="info_bar_1">在信息栏中显示已用/可用磁盘空间</string>
+    <string name="info_bar_2">在信息栏中显示系统名称</string>
+    <string name="zip_dest">新 Zip/tar 文件将被创建到该文件夹，当前路径为</string>
+    <string name="extract_dest">存档文件将被创建解压到该文件夹，当前路径为</string>
+    <string name="home_folder_pref">程序启动时显示的文件夹，当前路径为</string>
+    <string name="friendly_sizes_yes">文件大小将以Bytes、k、MB、G的形式显示</string>
+    <string name="friendly_sizes_no">文件大小只以Bytes的形式显示</string>
+    <string name="executed">已执行</string>
+    <string name="script_output">脚本输出</string>
+    <string name="executing_script">正在执行脚本文件...</string>
+    <string name="script_cancelled">脚本已取消</string>
+    <string name="db_locked_title">已锁定数据库</string>
+    <string name="db_locked_msg">此数据库当前已被其他进程锁定，请稍候再试。</string>
+    <string name="db_open_error">打开数据库时出现错误。</string>
+    <string name="open_table">打开表</string>
+    <string name="too_much_data">返回了太多的数据，只有第一次 %d 记录的将会显示。 最大的显示数目可在设置中更改。</string>
+    <string name="db_no_memory">载入数据时内存不足，无法显示全部记录。</string>
+    <string name="always_perform">此类型的文件总是执行选中的操作</string>
+    <string name="loading_apps">正在载入程序，请稍候...</string>
+    <string name="select_owner">选择新的用户和分组并点击“确定”。点击取消后将放弃更改</string>
+    <string name="owner">用户</string>
+    <string name="group">分组</string>
+    <string name="no_tables">未找到表</string>
+    <string name="name_label">名称:</string>
+    <string name="filesystem_label">文件系统:</string>
+    <string name="remount_rw">重载为 读/写</string>
+    <string name="download_re">下载RE管理器</string>
+    <string name="zip">Zip</string>
+    <string name="select_all">全部选择</string>
+    <string name="select_none">取消全选</string>
+    <string name="tar">Tar</string>
+    <string name="do_for_all">所有存在的项目执行此操作</string>
+    <string name="read">读</string>
+    <string name="write">写</string>
+    <string name="others">其他</string>
+    <string name="special_permissions">-------- 特殊权限 --------</string>
+    <string name="set_uid">设置 UID</string>
+    <string name="set_gid">设置 GID</string>
+    <string name="sticky">粘滞</string>
+    <string name="location_label">位置:</string>
+    <string name="permissions_label">权限:</string>
+    <string name="size_label">大小:</string>
+    <string name="timestamp_label">时间:</string>
+    <string name="owner_label">用户:</string>
+    <string name="group_label">分组:</string>
+    <string name="mime_label">Mime:</string>
+    <string name="md5_label">MD5:</string>
+    <string name="linked_label">连接至:</string>
+    <string name="search_for">搜索:</string>
+    <string name="internal_viewer">内置查看器</string>
+    <string name="sqlite_editor">SQLite 编辑器</string>
+    <string name="mounted_ro">挂载为 只/读</string>
+    <string name="mounted_rw">挂载为 读/写</string>
+    <string name="options">选项</string>
+    <string name="mount_ro">挂载为 只/读</string>
+    <string name="mount_rw">挂载为 读/写</string>
+    <string name="view_prefs">视图设置</string>
+    <string name="choose_view">选择视图模式</string>
+    <string name="choose_sort">选择排序方式</string>
+    <string name="folders_first_title">文件夹优先</string>
+    <string name="show_hidden">显示隐藏文件</string>
+    <string name="show_thumbs">显示图像缩略图</string>
+    <string name="show_friendly">优化文件大小显示</string>
+    <string name="info_mode">信息栏模式</string>
+    <string name="view_mode">视图模式</string>
+    <string name="sort_order">排序方式</string>
+    <string name="info_mode2">选择信息栏模式</string>
+    <string name="archive_prefs">存档设置</string>
+    <string name="zip_folder">Zip/Tar 创建文件夹</string>
+    <string name="extract_folder">文档解压文件夹</string>
+    <string name="general_prefs">常规设置</string>
+    <string name="home_folder">主页文件夹</string>
+    <string name="simple_list2">简洁列表</string>
+    <string name="detailed_list2">详情列表</string>
+    <string name="icons">图标列表</string>
+    <string name="name">名称</string>
+    <string name="date">日期</string>
+    <string name="type">类型</string>
+    <string name="name_desc2">名称 (降序)</string>
+    <string name="date_desc2">日期 (降序)</string>
+    <string name="size_desc2">大小 (降序)</string>
+    <string name="show_space">显示 已用/可用磁盘空间</string>
+    <string name="show_sys">显示系统文件名称</string>
+    <string name="special">特殊</string>
+    <string name="extract_failed">从存档文件中解压文件时出错</string>
+    <string name="parent_folder">上一级文件夹</string>
+    <string name="copyright">"Copyright © 2013 Speed Software Ltd
+hiapk-rom组 percy ROM专用"</string>
+    <string name="rights">hiapk 保留所有权利</string>
+</resources>
